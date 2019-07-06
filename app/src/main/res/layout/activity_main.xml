@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/facebook"
+            android:layout_margin="30dp"
+            android:background="@drawable/facebook"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/whatsapp"
+            android:layout_margin="30dp"
+            android:background="@drawable/whatsapp"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/instagram"
+            android:layout_margin="30dp"
+            android:background="@drawable/instagram"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/linkedin"
+            android:layout_margin="30dp"
+            android:background="@drawable/linkedin"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/utube"
+            android:layout_margin="30dp"
+            android:background="@drawable/youtube"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/twitter"
+            android:layout_margin="30dp"
+            android:background="@drawable/twitter"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/gmail"
+            android:layout_margin="30dp"
+            android:background="@drawable/gmail"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/quora"
+            android:layout_margin="30dp"
+            android:background="@drawable/quora"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/chrome"
+            android:layout_margin="30dp"
+            android:background="@drawable/chrome"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/snapchat"
+            android:layout_margin="30dp"
+            android:background="@drawable/snapchat"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/wikipedia"
+            android:layout_margin="30dp"
+            android:background="@drawable/wikipedia"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/reddit"
+            android:layout_margin="30dp"
+            android:background="@drawable/reddit"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/skype"
+            android:layout_margin="30dp"
+            android:background="@drawable/skype"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/medium"
+            android:layout_margin="30dp"
+            android:background="@drawable/medium"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/bing"
+            android:layout_margin="30dp"
+            android:background="@drawable/bing"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+
+    </LinearLayout>
+</LinearLayout>
